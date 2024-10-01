@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rainbow</title>
+<style>
+  .rainbow {
+    width: 400px;
+    height: 400px;
+   /*border-radius: 50%;*/
+    /*overflow: hidden;*/
+    /*position: relative;*/
+  }
+
+  .rainbow div {
+    width: 100%;
+    height: 14.28%; /* Dividindo 100% por 7 cores para ocupar todo o espaço */
+    position: absolute;
+    bottom: 0;
+  }
+
+  .red { background-color: red; }
+  .orange { background-color: orange; }
+  .yellow { background-color: yellow; }
+  .green { background-color: green; }
+  .blue { background-color: blue; }
+  .indigo { background-color: indigo; }
+  .violet { background-color: violet; }
+
+  div{
+    color: rgb(247, 248, 249);
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
+    font-weight: 900;
+    border: ridge 0px black
+    
+    
+    
+ 
+    
+  }
+</style>
+</head>
+<body>
+<div class="rainbow">
+  <div class="red" style="bottom: 0;">RED</div>
+  <div class="orange" style="bottom: 14.28%;">ORANGE</div>
+  <div class="yellow" style="bottom: 28.56%;">YELLOW</div>
+  <div class="green" style="bottom: 42.84%;">GREEN</div>
+  <div class="blue" style="bottom: 57.12%;">BLUE</div>
+  <div class="indigo" style="bottom: 71.4%;">INDIGO</div>
+  <div class="violet" style="bottom: 85.68%;">VIOLET</div>
+</div>
+</body>
+</html>
